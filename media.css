@@ -1,0 +1,64 @@
+ @media screen and (max-width: 760px){
+
+    body{
+        margin-left: 40px;
+    }
+    
+    
+    header {
+  
+        flex-direction:column;
+    }
+
+    .title{
+        flex-direction:row;
+        
+    }
+    
+    li{
+        font-weight:bold;
+    }
+
+    summary {
+        width:50%;
+        color:aliceblue;
+    }
+
+    p {
+        margin-right: 50px;
+    }
+
+    #h2{
+        font-size:25px;
+
+    }
+
+    #h1{
+        font-size:30px
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    img{
+        display:none;
+    }
+
+    form{
+        width:60%;
+    }
+
+    input{
+        align-self:flex-start;
+        border:2px solid;
+        border-color: red;
+    }
+    
+    #submit{
+        width:40%;
+        font-weight:bold;
+        color: red;
+        background:#000000;
+    }
+ }
